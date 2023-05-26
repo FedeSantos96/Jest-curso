@@ -1,0 +1,1 @@
+window.googleValidation = jest.fn();
