@@ -1,8 +1,10 @@
 // https://jestjs.io/docs/configuration
 
 module.exports = {
+  //rootDir: "./App/tests"
   coveragePathIgnorePatterns: [
-    "node_modules"
+    "node_modules",
+    "app/componentUI"
   ],
   projects: [
     {
