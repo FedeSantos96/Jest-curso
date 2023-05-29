@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export const getInitialState = () => {
-    axios.get("example/initial").then((response) => {
+    return axios.get("example/initial").then((response) => {
         switch(response.code) {
             case 200:
                 console.log("success");
